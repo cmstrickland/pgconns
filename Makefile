@@ -1,6 +1,6 @@
 OBJS=pgconns.o
 CC=gcc
-CFLAGS=-ansi -Wall -pedantic -std=c99 -g
+CFLAGS=-ansi -Wall -pedantic -std=c99 -g -I$(INCLUDES)
 LIBS=-lpq
 
 
